@@ -28,3 +28,6 @@ def pallindrom(s):
 
 def concatString(s,t):
   return s+t
+
+def stringLength(s):
+  return len(s)
