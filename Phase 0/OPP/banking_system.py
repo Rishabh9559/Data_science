@@ -57,13 +57,16 @@ class CurrentAccount(Account):
     ## polymorphism overriding withdraw method
 
     def withdrow(self, amount):
-        if(amount>=self.balance+self.overdraft_limit):
+        if(amount<=self.balance+self.overdraft_limit):
             self.balance-=amount
             print(f"withdraw amount {amount} and current balance {self.balance}")
         
         else:
             print("Overdraf limit over")
 
+    def display(self):
+        print(f"Current account number :{self.account_number}, balance: {self.balance} and user name {self.account_holder} ")
+    
 
 if __name__=='__main__':
     acc1=SavingAccount('RK252627','Rishabh kushwaha',99999,'PNB',3)
@@ -71,6 +74,10 @@ if __name__=='__main__':
     acc1.withdrow(455)
     acc1.add_interest()
     acc1.deposit(78545)
+
+    acc2=CurrentAccount('HM456','Happy Maurya',45612,5000)
+    acc2.display()
+    acc2.withdrow(45615)
 
 
 
