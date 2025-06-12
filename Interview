@@ -1,0 +1,27 @@
+Classical Machine Learning:
+Logistic & Linear Regression: Derivations of cost functions, closed-form solutions vs. gradient descent, and probability theory links.
+SVM: Margin maximization, primal vs. dual formulations, kernel tricks, and hinge loss.
+Decision Trees, Bagging & Boosting: Information gain vs. Gini impurity, bias-variance trade-offs, AdaBoost loss, and gradient boosting objectives.
+Loss Functions, Bias & Variance: MSE vs. cross-entropy proofs, statistical interpretations, and error decomposition.
+
+Deep Learning Concepts:
+CNNs: Layer breakdown, regularization (dropout, weight decay), and backpropagation.
+Backprop & Optimization: Gradient derivations in MLPs, learning rate schedules, and optimizers (SGD, Adam).
+
+
+NLP Concepts:
+RNNs & LSTMs: Gradient issues, gating mechanisms, and hidden-state updates.
+Self-Attention & Cross-Attention: Scaled dot-product attention, query-key-value, and multi-head attention.
+Transformers: Training stages, positional encodings, layer normalization, and complexity.
+
+Generative AI (GANs & VAEs):
+Adversarial Loss & Variational Lower Bound: GAN loss, KL divergence in VAEs, encoder/decoder objectives.
+
+Probability & Statistics:
+Random Variables & Distributions: Expectation, variance, covariance, and Bayes’ theorem.
+Loss Functions from First Principles: MLE and its relation to loss minimization in regression/classification.
+
+
+In every interview, there were instances where I had to walk through proofs, explain each mathematical step. Interviewers prioritized core ML intuition, rigorous derivations, and a deep understanding of probability over “fancy” LLM implementations. 
+
+My takeaway: While fancy LLM projects will definitely help shortlist resume for interviews, when it comes to actual interview stage top companies still value rock-solid mathematical foundations far more than domain-specific experience with Large Language Models when evaluating ML candidates.
